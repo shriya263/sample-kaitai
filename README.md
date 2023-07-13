@@ -1,6 +1,6 @@
 
 
-
+kaitai-struct-compiler -t go --go-package gifmodule example.ksy
 
 Ref: 
 - Extension to install : https://marketplace.visualstudio.com/items?itemName=fudgepops.kaitai-struct-vscode

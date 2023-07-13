@@ -11,7 +11,7 @@ import (
 func main() {
 	file, err := os.Open("giphy.gif")
 	fmt.Println("err r ", err)
-	g := gifmodule.NewGif()
+	g := gifmodule.NewGifmodule()
 	err = g.Read(kaitai.NewStream(file), nil, g)
 
 	fmt.Printf("width = %d\n", g.LogicalScreen.ImageWidth)
